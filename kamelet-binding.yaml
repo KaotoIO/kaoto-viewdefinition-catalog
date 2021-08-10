@@ -1,0 +1,12 @@
+name: Kamelet Binding
+id: kameletBinding
+type: integrationview
+constraints: 
+    -
+      mandatory: true
+      operation: SIZE_EQUALS
+      parameter: 2
+    -
+      mandatory: true
+      operation: CONTAINS_STEP_TYPE
+      parameter: KAMELET
