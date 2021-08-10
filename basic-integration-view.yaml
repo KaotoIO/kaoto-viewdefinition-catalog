@@ -1,0 +1,9 @@
+
+name: Integration View
+id: integration
+type: integrationview
+constraints: 
+    -
+      mandatory: true
+      operation: SIZE_GREATER_THAN
+      parameter: 1
