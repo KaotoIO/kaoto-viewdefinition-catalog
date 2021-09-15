@@ -1,7 +1,7 @@
 
 name: Integration View
 id: integration
-type: integrationview
+type: generic
 constraints: 
     -
       mandatory: true
