@@ -1,6 +1,6 @@
 name: Kamelet Binding
 id: kameletBinding
-type: integrationview
+type: generic
 constraints: 
     -
       mandatory: true
