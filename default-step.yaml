@@ -1,5 +1,0 @@
-name: Detail View
-id: detail-step
-type: step
-url: http://localhost:3002/remoteEntry.js
-constraints: 
