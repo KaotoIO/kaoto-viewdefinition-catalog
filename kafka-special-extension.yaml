@@ -1,5 +1,5 @@
 name: Kafka Properties
-id: detail-step
+id: custom-step
 type: step
 url: https://step-extension.netlify.app/remoteEntry.js
 constraints: 
