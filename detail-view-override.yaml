@@ -1,0 +1,9 @@
+name: Custom Details
+id: detail-step
+type: step
+url: https://step-extension.netlify.app/remoteEntry.js
+constraints: 
+   -
+      mandatory: true
+      operation: CONTAINS_STEP_NAME
+      parameter: twitter-search-source
