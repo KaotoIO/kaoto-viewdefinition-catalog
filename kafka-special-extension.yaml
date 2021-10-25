@@ -2,6 +2,8 @@ name: Kafka Properties
 id: custom-step
 type: step
 url: https://step-extension.netlify.app/remoteEntry.js
+scope: 'stepextension'
+module: './Button'
 constraints: 
    -
       mandatory: true
