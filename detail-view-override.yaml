@@ -2,6 +2,8 @@ name: Custom Details
 id: detail-step
 type: step
 url: https://step-extension.netlify.app/remoteEntry.js
+module: './Button'
+scope: 'stepextension'
 constraints: 
    -
       mandatory: true
