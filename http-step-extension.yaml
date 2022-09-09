@@ -1,0 +1,15 @@
+name: Extented configuration
+id: http-extension-step
+type: step
+url: https://mmelko.github.io/http-step-extension/remoteEntry.js
+module: './HttpStep'
+scope: 'httpStep'
+constraints: 
+   -
+      mandatory: false
+      operation: CONTAINS_STEP_NAME
+      parameter: http-source
+   -
+      mandatory: false
+      operation: CONTAINS_STEP_NAME
+      parameter: http-sink
