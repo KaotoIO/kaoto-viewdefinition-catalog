@@ -1,0 +1,11 @@
+name: Config
+id: set-header-extension-step
+type: step
+url: https://kaotoio.github.io/step-extension-repository/set-header/remoteEntry.js
+module: './SetHeaderStep'
+scope: 'setHeaderStep'
+constraints: 
+   -
+      mandatory: true
+      operation: CONTAINS_STEP_NAME
+      parameter: set-header
