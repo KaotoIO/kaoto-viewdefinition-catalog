@@ -1,0 +1,11 @@
+name: Config
+id: set-body-extension-step
+type: step
+url: https://kaotoio.github.io/step-extension-repository/set-body/remoteEntry.js
+module: './SetBodyStep'
+scope: 'setBodyStep'
+constraints: 
+   -
+      mandatory: true
+      operation: CONTAINS_STEP_NAME
+      parameter: set-body
