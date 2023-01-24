@@ -1,0 +1,11 @@
+name: Config
+id: choice-extension-step
+type: step
+url: https://kaotoio.github.io/step-extension-repository/choice/remoteEntry.js
+module: './ChoiceStep'
+scope: 'choiceStep'
+constraints: 
+   -
+      mandatory: true
+      operation: CONTAINS_STEP_NAME
+      parameter: choice
