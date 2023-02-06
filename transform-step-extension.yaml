@@ -1,0 +1,11 @@
+name: Config
+id: transform-extension-step
+type: step
+url: https://kaotoio.github.io/step-extension-repository/transform/remoteEntry.js
+module: './TransformStep'
+scope: 'transformStep'
+constraints: 
+   -
+      mandatory: true
+      operation: CONTAINS_STEP_NAME
+      parameter: transform
