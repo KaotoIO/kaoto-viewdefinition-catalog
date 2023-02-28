@@ -1,0 +1,11 @@
+name: Config
+id: step-extension-load-balance-eip
+type: step
+url: https://kaotoio.github.io/step-extension-repository/load-balance/remoteEntry.js
+scope: 'loadBalanceStep'
+module: './LoadBalanceStep'
+constraints:
+   -
+      mandatory: true
+      operation: CONTAINS_STEP_NAME
+      parameter: load-balance
