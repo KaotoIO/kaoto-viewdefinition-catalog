@@ -1,7 +1,7 @@
 name: Config
 id: step-extension-do-try-eip
 type: step
-url:  https://kaotoio.github.io/try-catch-eip/remoteEntry.js
+ url:  https://kaotoio.github.io/step-extension-repository/try-catch-eip/remoteEntry.js
 scope: 'stepextensiondotryeip'
 module: './DoCatch'
 constraints: 
