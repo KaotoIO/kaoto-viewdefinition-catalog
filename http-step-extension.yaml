@@ -1,10 +1,10 @@
-name: Extented configuration
+name: Extended configuration
 id: http-extension-step
 type: step
 url: https://kaotoio.github.io/step-extension-repository/http/remoteEntry.js
 module: './HttpStep'
 scope: 'httpStep'
-constraints: 
+constraints:
    -
       mandatory: false
       operation: CONTAINS_STEP_NAME
