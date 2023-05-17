@@ -1,0 +1,11 @@
+name: Config
+id: rest-dsl-extension-step
+type: step
+url: http://localhost:9001/remoteEntry.js
+module: './RestStep'
+scope: 'restStep'
+constraints: 
+   -
+      mandatory: true
+      operation: CONTAINS_STEP_IDENTIFIER
+      parameter: CAMEL-REST-DSL
