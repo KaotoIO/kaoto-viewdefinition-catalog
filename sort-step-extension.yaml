@@ -1,0 +1,11 @@
+name: Config
+id: sort-extension-step
+type: step
+url:  https://kaotoio.github.io/step-extension-repository/sort/remoteEntry.js
+scope: 'sortStep'
+module: './SortStep'
+constraints:
+   -
+      mandatory: true
+      operation: CONTAINS_STEP_NAME
+      parameter: sort
