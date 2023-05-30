@@ -1,7 +1,7 @@
 name: Config
 id: rest-dsl-extension-step
 type: step
-url: http://localhost:9001/remoteEntry.js
+url: https://kaotoio.github.io/step-extension-repository/rest-dsl/remoteEntry.js
 module: './RestStep'
 scope: 'restStep'
 constraints: 
